@@ -1,0 +1,10 @@
+^C:\USERS\MAPEI\DOCUMENTS\PROJECTS\STOCKSIM\BUILD\CMAKEFILES\6E2CB1569B38DD9AEB73C3FE3555B474\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mapei/Documents/Projects/StockSim -BC:/Users/mapei/Documents/Projects/StockSim/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mapei/Documents/Projects/StockSim/build/StockSim.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

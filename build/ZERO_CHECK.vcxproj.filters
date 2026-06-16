@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mapei\Documents\Projects\StockSim\build\CMakeFiles\6e2cb1569b38dd9aeb73c3fe3555b474\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1B08E6E6-7B76-37EF-A190-8B42EEC16C00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

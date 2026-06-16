@@ -1,0 +1,3 @@
+C:/Users/mapei/Documents/Projects/StockSim/build/CMakeFiles/StockSim.dir
+C:/Users/mapei/Documents/Projects/StockSim/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/mapei/Documents/Projects/StockSim/build/CMakeFiles/ZERO_CHECK.dir
