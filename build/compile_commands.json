@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/mapei/Documents/Projects/StockSim/build",
+  "command": "C:\\Strawberry\\c\\bin\\g++.exe -IC:/Users/mapei/Documents/Projects/StockSim/include -g -o CMakeFiles\\StockSim.dir\\src\\main.cpp.obj -c C:\\Users\\mapei\\Documents\\Projects\\StockSim\\src\\main.cpp",
+  "file": "C:\\Users\\mapei\\Documents\\Projects\\StockSim\\src\\main.cpp",
+  "output": "CMakeFiles\\StockSim.dir\\src\\main.cpp.obj"
+}
+]
