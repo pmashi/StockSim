@@ -1,10 +1,7 @@
 #pragma once 
 
-
-namespace stocksim 
-{
-    class CircularQueue 
-    {
+namespace stocksim {
+    class CircularQueue {
     private: 
         double* buffer; 
         int     capacity; 

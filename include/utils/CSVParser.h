@@ -2,13 +2,10 @@
 
 #include <string> 
 #include "PriceHistory.h"
-
 using std::string; 
 
-namespace stocksim 
-{
-    class CSVParser 
-    {
+namespace stocksim {
+    class CSVParser {
     public: 
         static PriceHistory* loadHistory(const string& filename); 
 
