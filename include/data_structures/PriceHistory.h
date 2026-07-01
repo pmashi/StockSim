@@ -22,9 +22,9 @@ namespace stocksim {
         private: 
             PriceNode* current; 
         public: 
-            Iterator(PriceNode* start); 
+            Iterator(PriceNode* node); 
             Iterator& operator++(); 
-            PriceNode& operator*(); 
+            PriceNode& operator*() const; 
             bool operator !=(const Iterator& other) const; 
         };
 
@@ -37,7 +37,7 @@ namespace stocksim {
         public: 
             ReverseIterator(PriceNode* node); 
             ReverseIterator& operator++(); 
-            PriceNode& operator*(); 
+            PriceNode& operator*() const; 
             bool operator!=(const ReverseIterator& other) const; 
         };
         
