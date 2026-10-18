@@ -7,7 +7,7 @@ namespace stocksim {
     private:
 
     public:
-        DynamicSIPStrategy(double base, double inc, double dec);
+        DynamicSIPStrategy();
         ~DynamicSIPStrategy();
 
         SimResult backtest(PriceHistory* history, double monthlyCapital, int startYear, int endYear) override;

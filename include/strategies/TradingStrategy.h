@@ -16,7 +16,7 @@ namespace stocksim {
     };
     
     class TradingStrategy { 
-    private:
+    public:
         virtual ~TradingStrategy(); 
         virtual SimResult backtest(PriceHistory* history, double monthlyCapital, int startYear, int endYear) = 0; 
         virtual string getName() const = 0; 
@@ -25,6 +25,6 @@ namespace stocksim {
 
     protected: 
         double calculateCAGR(double startVal, double endVal, int years) const; 
-        double calculateMaxDrawdown(const vector<double>& portfolioValues) const; 
+        double calculateMaxDrawdown(const vector<double>& values) const; 
     }; 
 }
