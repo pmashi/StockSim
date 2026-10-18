@@ -6,7 +6,7 @@
 namespace stocksim {
     class Stock : public FinancialAsset {
     private:
-        PriceHistory* priceHistory;
+        PriceHistory* history;
 
     public: 
         Stock(const string& ticker, const string& name); 
